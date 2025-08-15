@@ -16,7 +16,7 @@ internal class Program
 
         if (subject.Exam is null) return;
 
-       
+
         subject.Exam.AddQuestion(new McqQuestion(
             header: "MCQ",
             body: "Which keyword enables inheritance in C#?",
